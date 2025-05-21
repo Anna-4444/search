@@ -3,6 +3,35 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+h1 {
+font-size: 5.25rem;
+font-weight: 500;
+margin: 0;
+}
+
+h2 {
+ font-weight: 400;
+ font-size: 2rem;
+ margin: 0;
+}
+
+.blue {
+    color: #ea4335;
+}
+
+.red {
+    color: #4285f4;
+}
+
+.yellow {
+    color: #fbbc05;
+}
+
+.green {
+    color: #34a853;
+}
+
+
 .content-wrapper {
     width: 80%;
     margin: 0 auto;
@@ -10,11 +39,10 @@ body {
 
 header,
 main {
-    /* margin: 2rem 0; */
     padding: 2rem 0;
 }
 
-#home-nav {
+nav {
     display: flex;
     justify-content: space-between;
 }
